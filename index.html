@@ -20,14 +20,12 @@
     </label>
 
     <nav class="nav-bar">
-        <a href="#"style="--i:0;">Home</a>
-        <a href="#"style="--i:1;">Customer</a>
-        <a href="#"style="--i:2;">Item</a>
-        <a href="#"style="--i:3;">Order</a>
+        <a style="--i:0;" class="home-nav">Home</a>
+        <a style="--i:1;" class="customer-nav">Customer</a>
+        <a style="--i:2;" class="item-nav">Item</a>
+        <a style="--i:3;" class="order-nav">Order</a>
     </nav>
 </header>
-
-
 
 <div class="dashboard">
     <div class="container">
@@ -63,8 +61,6 @@
     </div>
 </div>
 
-
-
 <div class="customer">
     <p>Customer</p>
     <div class="C-Content">
@@ -78,9 +74,6 @@
                         <div class="sc-card-content">
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search customer by CID">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search customer by Name">
                             </div>
                             <button type="button" class="btn btn-outline-primary">Search</button>
                             <button type="button" class="btn btn-outline-danger">Delete</button>
@@ -109,27 +102,27 @@
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
+                            <td>Test</td>
+                            <td>25000</td>
+                            <td>Agalawatta</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Test</td>
+                            <td>25000</td>
+                            <td>MAtugama</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Test</td>
                             <td>25000</td>
                             <td>Panadura</td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
-                            <td>Mark</td>
-                            <td>45000</td>
-                            <td>Horana</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Mark</td>
-                            <td>45000</td>
-                            <td>Horana</td>
-                        </tr>
-                        <tr>
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>45000</td>
-                            <td>Horana</td>
+                            <td>Test</td>
+                            <td>25000</td>
+                            <td>Colombo</td>
                         </tr>
 
                         </tbody>
@@ -140,7 +133,6 @@
     </div>
     <hr>
 </div>
-
 
 <div class="item">
     <p>Item</p>
@@ -155,9 +147,6 @@
                         <div class="si-card-content">
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search item by Item code">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search item by Name">
                             </div>
                             <button type="button" class="btn btn-outline-primary">Search</button>
                             <button type="button" class="btn btn-outline-danger">Delete</button>
@@ -216,8 +205,6 @@
     </div>
     <hr>
 </div>
-
-
 
 <div class="order">
     <p>Order</p>
@@ -386,7 +373,9 @@
 
 </div>
 
-
+</div>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
